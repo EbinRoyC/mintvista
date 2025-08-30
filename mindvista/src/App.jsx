@@ -4,6 +4,7 @@ import About from './pages/about'
 import Contact from './pages/contact'
 import Service from './pages/service'
 import LoginPage from './pages/login'
+import Formpage from './pages/form'
 import './App.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/form" element={<Formpage />} />
       </Routes>
     </Router>
   )
